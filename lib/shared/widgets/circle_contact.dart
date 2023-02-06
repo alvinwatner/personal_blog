@@ -32,7 +32,7 @@ class CircleContact extends StatelessWidget {
         icon: FaIcon(
           iconData,
           color: Colors.white,
-          size: MediaQuery.of(context).size.width * 0.01,
+          size: 10,
         ),
       ),
     );
