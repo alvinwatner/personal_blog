@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/features/ai_project/views/widgets/bullet_item.dart';
-import 'package:personal_blog/features/ai_project/views/widgets/bullet_list_with_title.dart';
-import 'package:personal_blog/shared/widgets/my_app_bar.dart';
+import 'package:alvinwatner/features/ai_project/views/widgets/bullet_item.dart';
+import 'package:alvinwatner/features/ai_project/views/widgets/bullet_list_with_title.dart';
+import 'package:alvinwatner/shared/widgets/my_app_bar.dart';
 
 class ListAIProjectPage extends StatelessWidget {
   static const routeName = 'list-ai-project';

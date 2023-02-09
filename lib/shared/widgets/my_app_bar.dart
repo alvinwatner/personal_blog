@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/features/about/views/pages/about_page.dart';
-import 'package:personal_blog/features/home/views/pages/home_page.dart';
-import 'package:personal_blog/shared/responsive/utils.dart';
+import 'package:alvinwatner/features/about/views/pages/about_page.dart';
+import 'package:alvinwatner/features/home/views/pages/home_page.dart';
+import 'package:alvinwatner/shared/responsive/utils.dart';
 
 PreferredSizeWidget buildAppBar(BuildContext context) {
   return AppBar(

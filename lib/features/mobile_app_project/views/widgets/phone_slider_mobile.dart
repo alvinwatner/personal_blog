@@ -1,6 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:personal_blog/features/mobile_app_project/models/slider_item.dart';
+import 'package:alvinwatner/features/mobile_app_project/models/slider_item.dart';
 
 class PhoneSliderMobile extends StatefulWidget {
   final List<SliderItem> sliderItems;

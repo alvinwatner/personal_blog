@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/features/about/views/pages/about_page.dart';
-import 'package:personal_blog/features/home/views/pages/home_page.dart';
-import 'package:personal_blog/features/ai_project/views/pages/list_ai_project_page.dart';
-import 'package:personal_blog/features/mobile_app_project/views/pages/list_ma_project_page.dart';
+import 'package:alvinwatner/features/about/views/pages/about_page.dart';
+import 'package:alvinwatner/features/home/views/pages/home_page.dart';
+import 'package:alvinwatner/features/ai_project/views/pages/list_ai_project_page.dart';
+import 'package:alvinwatner/features/mobile_app_project/views/pages/list_ma_project_page.dart';
 
 final Map<String, Widget> routes = {
   HomePage.routeName: const HomePage(),

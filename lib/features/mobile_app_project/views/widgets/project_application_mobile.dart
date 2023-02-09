@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/features/mobile_app_project/models/slider_item.dart';
-import 'package:personal_blog/features/mobile_app_project/views/widgets/phone_slider_mobile.dart';
-import 'package:personal_blog/shared/utils.dart';
+import 'package:alvinwatner/features/mobile_app_project/models/slider_item.dart';
+import 'package:alvinwatner/features/mobile_app_project/views/widgets/phone_slider_mobile.dart';
+import 'package:alvinwatner/shared/utils.dart';
 
 class ProjectApplicationMobile extends StatelessWidget {
   final String title;

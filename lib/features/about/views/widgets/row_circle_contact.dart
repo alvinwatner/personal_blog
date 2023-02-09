@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/shared/utils.dart';
-import 'package:personal_blog/shared/widgets/circle_contact.dart';
+import 'package:alvinwatner/shared/utils.dart';
+import 'package:alvinwatner/shared/widgets/circle_contact.dart';
 
 class RowCircleContact extends StatelessWidget {
   final IconData iconData;

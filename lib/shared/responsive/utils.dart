@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/shared/responsive/screen_dimensions.dart';
+import 'package:alvinwatner/shared/responsive/screen_dimensions.dart';
 
 double responsiveValue(
   BuildContext context, {

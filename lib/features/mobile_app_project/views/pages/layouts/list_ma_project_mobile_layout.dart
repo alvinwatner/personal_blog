@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/features/mobile_app_project/models/slider_item.dart';
-import 'package:personal_blog/features/mobile_app_project/views/widgets/project_application_mobile.dart';
+import 'package:alvinwatner/features/mobile_app_project/models/slider_item.dart';
+import 'package:alvinwatner/features/mobile_app_project/views/widgets/project_application_mobile.dart';
 
 class ListMAProjectMobileLayout extends StatelessWidget {
   const ListMAProjectMobileLayout({

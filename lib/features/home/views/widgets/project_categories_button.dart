@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/features/ai_project/views/pages/list_ai_project_page.dart';
-import 'package:personal_blog/features/mobile_app_project/views/pages/list_ma_project_page.dart';
-import 'package:personal_blog/shared/responsive/utils.dart';
+import 'package:alvinwatner/features/ai_project/views/pages/list_ai_project_page.dart';
+import 'package:alvinwatner/features/mobile_app_project/views/pages/list_ma_project_page.dart';
+import 'package:alvinwatner/shared/responsive/utils.dart';
 
 enum ProjectCategory {
   mobileApp,
@@ -87,8 +87,13 @@ class _ProjectCategoriesButtonState extends State<ProjectCategoriesButton> {
           child: LayoutBuilder(builder: (context, constraints) {
             return Column(
               children: [
-                const SizedBox(
-                  height: 30.0,
+                 SizedBox(
+                  height: responsiveValue(
+                    context,
+                    desktop: 30,
+                    tablet: 20,
+                    mobile: 10,
+                  ),
                 ),
                 Text(
                   "- Experience -",
@@ -96,7 +101,7 @@ class _ProjectCategoriesButtonState extends State<ProjectCategoriesButton> {
                         color: Colors.grey.shade200,
                       ),
                 ),
-                 SizedBox(
+                SizedBox(
                   height: responsiveValue(
                     context,
                     desktop: 50,
@@ -148,8 +153,11 @@ class _ProjectCategoriesButtonState extends State<ProjectCategoriesButton> {
                         context,
                         desktop: Theme.of(context).textTheme.titleMedium,
                         tablet: Theme.of(context).textTheme.titleMedium,
-                        mobile: Theme.of(context).textTheme.titleSmall?.copyWith(fontSize: 11),
-                      ),  
+                        mobile: Theme.of(context)
+                            .textTheme
+                            .titleSmall
+                            ?.copyWith(fontSize: 11),
+                      ),
                     ),
                   ),
                 ),

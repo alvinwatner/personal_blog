@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/features/mobile_app_project/views/pages/layouts/list_ma_project_desktop_layout.dart';
-import 'package:personal_blog/features/mobile_app_project/views/pages/layouts/list_ma_project_mobile_layout.dart';
-import 'package:personal_blog/shared/widgets/my_app_bar.dart';
+import 'package:alvinwatner/features/mobile_app_project/views/pages/layouts/list_ma_project_desktop_layout.dart';
+import 'package:alvinwatner/features/mobile_app_project/views/pages/layouts/list_ma_project_mobile_layout.dart';
+import 'package:alvinwatner/shared/widgets/my_app_bar.dart';
 
 class ListMobileAppProjectPage extends StatelessWidget {
   static const routeName = 'list-mobile-app-project';

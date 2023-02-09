@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:personal_blog/features/home/views/widgets/project_categories_button.dart';
-import 'package:personal_blog/shared/widgets/circle_contact.dart';
-import 'package:personal_blog/shared/widgets/my_app_bar.dart';
+import 'package:alvinwatner/features/home/views/widgets/project_categories_button.dart';
+import 'package:alvinwatner/shared/widgets/circle_contact.dart';
+import 'package:alvinwatner/shared/widgets/my_app_bar.dart';
 
 class HomePage extends StatelessWidget {
   static const String routeName = 'home';

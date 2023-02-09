@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:personal_blog/features/about/views/widgets/row_circle_contact.dart';
+import 'package:alvinwatner/features/about/views/widgets/row_circle_contact.dart';
 
 class AboutDesktopLayout extends StatelessWidget {
   const AboutDesktopLayout({super.key});

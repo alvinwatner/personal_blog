@@ -1,5 +1,5 @@
 // @dart=2.18
-// Flutter web bootstrap script for package:personal_blog/main.dart.
+// Flutter web bootstrap script for package:alvinwatner/main.dart.
 //
 // Generated file. Do not edit.
 //
@@ -9,7 +9,7 @@
 import 'dart:ui' as ui;
 import 'dart:async';
 
-import 'package:personal_blog/main.dart' as entrypoint;
+import 'package:alvinwatner/main.dart' as entrypoint;
 import 'web_plugin_registrant.dart' as pluginRegistrant;
 
 typedef _UnaryFunction = dynamic Function(List<String> args);

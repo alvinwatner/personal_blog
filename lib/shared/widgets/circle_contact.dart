@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:personal_blog/shared/responsive/utils.dart';
-import 'package:personal_blog/shared/utils.dart';
+import 'package:alvinwatner/shared/responsive/utils.dart';
+import 'package:alvinwatner/shared/utils.dart';
 
 class CircleContact extends StatelessWidget {
   final bool isEmail;
@@ -30,7 +30,12 @@ class CircleContact extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 35,
+      width: responsiveValue(
+        context,
+        desktop: 40,
+        tablet: 35,
+        mobile: 35,
+      ),
       padding: EdgeInsets.all(responsiveValue(
         context,
         desktop: desktopPadding,

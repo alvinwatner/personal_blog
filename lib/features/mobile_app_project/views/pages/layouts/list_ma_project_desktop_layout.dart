@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/features/mobile_app_project/models/slider_item.dart';
-import 'package:personal_blog/features/mobile_app_project/views/widgets/project_application_desktop.dart';
+import 'package:alvinwatner/features/mobile_app_project/models/slider_item.dart';
+import 'package:alvinwatner/features/mobile_app_project/views/widgets/project_application_desktop.dart';
 
 class ListMAProjectDesktopLayout extends StatelessWidget {
   const ListMAProjectDesktopLayout({super.key});

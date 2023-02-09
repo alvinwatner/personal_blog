@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/shared/utils.dart';
+import 'package:alvinwatner/shared/utils.dart';
 
 class BulletItem extends StatelessWidget {
   final String url;

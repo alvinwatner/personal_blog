@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/features/home/views/pages/home_page.dart';
-import 'package:personal_blog/routes/routes.dart';
-import 'package:personal_blog/routes/transition.dart';
+import 'package:alvinwatner/features/home/views/pages/home_page.dart';
+import 'package:alvinwatner/routes/routes.dart';
+import 'package:alvinwatner/routes/transition.dart';
 
 void main() {
   runApp(const MyApp());
