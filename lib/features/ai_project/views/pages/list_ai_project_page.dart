@@ -14,7 +14,7 @@ class ListAIProjectPage extends StatelessWidget {
       body: Center(
         child: Container(
           padding: const EdgeInsets.all(10.0),
-          width: MediaQuery.of(context).size.width * 0.8,
+          width: MediaQuery.of(context).size.width,
           child: SingleChildScrollView(
             child: LayoutBuilder(builder: (context, constraints) {
               return Column(
@@ -32,18 +32,18 @@ class ListAIProjectPage extends StatelessWidget {
                   const SizedBox(
                     height: 30.0,
                   ),
-                  BulltetListWithTitle(
+                  const BulltetListWithTitle(
                     title: "Research Articles",
                     listItem: [
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
+                        
                         text:
                             "LogDQN Deep Reinforcement Learning Implementation for Solving Hydrophobic-Polar Model Protein Folding Problem.",
                         url: "https://pdfhost.io/v/gQcDK0DN0_logdqn_hp",
                         year: "2020",
                       ),
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
+                        
                         text:
                             "The Secret of Overlapping Tokens in Question Generation. (only introduction)",
                         url:
@@ -55,18 +55,18 @@ class ListAIProjectPage extends StatelessWidget {
                   const SizedBox(
                     height: 20.0,
                   ),
-                  BulltetListWithTitle(
+                  const BulltetListWithTitle(
                     title: "Research Projects",
                     listItem: [
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
+                        
                         text:
                             "LogDQN Deep Reinforcement Learning Implementation for Solving Hydrophobic-Polar Model Protein Folding Problem.",
                         url: "https://github.com/alvinwatner/LogDQN_ProteinHP",
                         year: "2020",
                       ),
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
+                        
                         text:
                             "The Secret of Overlapping Tokens in Question Generation.",
                         url:
@@ -78,11 +78,10 @@ class ListAIProjectPage extends StatelessWidget {
                   const SizedBox(
                     height: 20.0,
                   ),
-                  BulltetListWithTitle(
+                  const BulltetListWithTitle(
                     title: "Personal Projects",
                     listItem: [
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
                         text:
                             "Protein Folding Hydrophobic-Polar model simulation.",
                         url:
@@ -90,7 +89,6 @@ class ListAIProjectPage extends StatelessWidget {
                         year: "2020",
                       ),
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
                         text:
                             "Banned words decoding mechanism for Huggingface. (project idea because of an issue)",
                         url:
@@ -98,21 +96,18 @@ class ListAIProjectPage extends StatelessWidget {
                         year: "2020",
                       ),
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
                         text: "Banggood Marketplace Description Parser.",
                         url:
                             "https://github.com/alvinwatner/banggood_description_parser",
                         year: "2021",
                       ),
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
                         text: "Covid-19 in Jakarta Visualization with Tableau.",
                         url:
                             "https://github.com/alvinwatner/banggood_description_parser",
                         year: "2021",
                       ),
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
                         text:
                             "Covid-19 in Indonesia Time Series Visualization with Tableau.",
                         url:
@@ -124,11 +119,10 @@ class ListAIProjectPage extends StatelessWidget {
                   const SizedBox(
                     height: 20.0,
                   ),
-                  BulltetListWithTitle(
+                  const BulltetListWithTitle(
                     title: "Volunteer Projects",
                     listItem: [
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
                         text:
                             "Reading Group Presenter Mathematics for Machine Learning book topic : Basis and Rank, Linear Mapping.",
                         url:
@@ -136,7 +130,6 @@ class ListAIProjectPage extends StatelessWidget {
                         year: "2021",
                       ),
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
                         text:
                             "Podcaster for Machine Learning @ Mikroskil channel (Indonesia Language).",
                         url:
@@ -144,7 +137,6 @@ class ListAIProjectPage extends StatelessWidget {
                         year: "2021",
                       ),
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
                         text: "PreTrain GPT2 from Scratch in Indonesia.",
                         url:
                             "https://huggingface.co/flax-community/gpt2-medium-indonesian",
@@ -155,11 +147,10 @@ class ListAIProjectPage extends StatelessWidget {
                   const SizedBox(
                     height: 20.0,
                   ),
-                  BulltetListWithTitle(
+                  const BulltetListWithTitle(
                     title: "Certificates",
                     listItem: [
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
                         text:
                             "DTsense - Tableau Mastery for Data Visualization.",
                         url:
@@ -167,7 +158,7 @@ class ListAIProjectPage extends StatelessWidget {
                         year: "2021",
                       ),
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
+                        
                         text:
                             "Trending Analytics - Present Data with Confidence.",
                         url:
@@ -175,7 +166,7 @@ class ListAIProjectPage extends StatelessWidget {
                         year: "2021",
                       ),
                       BulletItem(
-                        width: constraints.maxWidth * 0.9,
+                        
                         text: "IDAO 2021 - Machine Learning Bootcamp",
                         url:
                             "https://pdfhost.io/v/nMmbkoUff_idao_ml_bootcamp",

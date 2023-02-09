@@ -2,13 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:personal_blog/shared/utils.dart';
 
 class BulletItem extends StatelessWidget {
-  final double width;
   final String url;
   final String text;
   final String year;
   const BulletItem({
     Key? key,
-    required this.width,
     required this.url,
     required this.text,
     required this.year,
@@ -16,28 +14,31 @@ class BulletItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(      
-      children: [
-        SizedBox(
-          width: width,
-          child: TextButton(
-            onPressed: () {
-              launchUrlCustom(url);
-            },
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
+    return SizedBox(
+      width: MediaQuery.of(context).size.width,
+      child: Row(
+        children: [
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  "• $text",
-                  overflow: TextOverflow.ellipsis,
+                TextButton(
+                  onPressed: () {
+                    launchUrlCustom(url);
+                  },
+                  child: Text(
+                    "• $text",
+                    textAlign: TextAlign.start,
+                    overflow: TextOverflow.ellipsis,
+                  ),
                 ),
               ],
             ),
           ),
-        ),
-        const Spacer(),
-        Text(year),
-      ],
+          // Spacer(),
+          Text(year),
+        ],
+      ),
     );
   }
 }

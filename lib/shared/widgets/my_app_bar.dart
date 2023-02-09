@@ -1,13 +1,29 @@
 import 'package:flutter/material.dart';
-import 'package:personal_blog/about_page.dart';
+import 'package:personal_blog/features/about/views/pages/about_page.dart';
 import 'package:personal_blog/features/home/views/pages/home_page.dart';
+import 'package:personal_blog/shared/responsive/utils.dart';
 
 PreferredSizeWidget buildAppBar(BuildContext context) {
   return AppBar(
+    leadingWidth: responsiveValue(
+      context,
+      desktop: 30,
+      tablet: 30,
+      mobile: 15,
+    ),
     backgroundColor: Colors.blue.shade600,
     leading: IconButton(
       onPressed: () {},
-      icon: const Icon(Icons.light_mode, color: Colors.white,),
+      icon: Icon(
+        Icons.light_mode,
+        color: Colors.white,
+        size: responsiveValue(
+          context,
+          desktop: 24,
+          tablet: 22,
+          mobile: 20,
+        ),
+      ),
     ),
     centerTitle: false,
     title: TextButton(
@@ -16,9 +32,17 @@ PreferredSizeWidget buildAppBar(BuildContext context) {
       },
       child: Text(
         "Alvin Watner",
-        style: Theme.of(context).textTheme.titleMedium?.copyWith(
-              color: Colors.white,
-            ),
+        style: responsiveTextStyle(context,
+            desktop: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  color: Colors.white,
+                ),
+            tablet: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  color: Colors.white,
+                ),
+            mobile: Theme.of(context)
+                .textTheme
+                .titleMedium
+                ?.copyWith(color: Colors.white, fontSize: 10)),
       ),
     ),
     actions: [
@@ -30,7 +54,17 @@ PreferredSizeWidget buildAppBar(BuildContext context) {
           },
           child: Text(
             "Home",
-            style: Theme.of(context).textTheme.titleSmall?.copyWith(color: Colors.white),
+            style: responsiveTextStyle(context,
+                desktop: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      color: Colors.white,
+                    ),
+                tablet: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      color: Colors.white,
+                    ),
+                mobile: Theme.of(context)
+                    .textTheme
+                    .titleSmall
+                    ?.copyWith(color: Colors.white, fontSize: 10)),
           ),
         ),
       ),
@@ -42,7 +76,17 @@ PreferredSizeWidget buildAppBar(BuildContext context) {
           },
           child: Text(
             "About me",
-            style: Theme.of(context).textTheme.titleSmall?.copyWith(color: Colors.white),
+            style: responsiveTextStyle(context,
+                desktop: Theme.of(context).textTheme.titleSmall?.copyWith(
+                      color: Colors.white,
+                    ),
+                tablet: Theme.of(context).textTheme.titleSmall?.copyWith(
+                      color: Colors.white,
+                    ),
+                mobile: Theme.of(context)
+                    .textTheme
+                    .labelSmall
+                    ?.copyWith(color: Colors.white, fontSize: 10)),
           ),
         ),
       ),

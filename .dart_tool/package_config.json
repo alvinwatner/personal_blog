@@ -74,12 +74,6 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "flutter_pdfview",
-      "rootUri": "file:///Users/alvin/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_pdfview-1.2.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "flutter_test",
       "rootUri": "file:///Users/alvin/FlutterDev/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -150,12 +144,6 @@
       "rootUri": "file:///Users/alvin/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/provider-6.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "responsive_framework",
-      "rootUri": "file:///Users/alvin/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/responsive_framework-0.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
     },
     {
       "name": "sky_engine",
@@ -260,7 +248,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-02-04T03:56:11.226253Z",
+  "generated": "2023-02-09T07:49:06.044117Z",
   "generator": "pub",
   "generatorVersion": "2.18.4"
 }

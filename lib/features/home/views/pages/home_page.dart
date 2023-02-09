@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
           padding: const EdgeInsets.all(12.0),
           child: Column(
             children: [
-              const Spacer(),
+              const Spacer(),              
               const ProjectCategoriesButton(),
               const Spacer(),
               Row(
