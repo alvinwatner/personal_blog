@@ -98,6 +98,7 @@ class ListMAProjectDesktopLayout extends StatelessWidget {
           subtitle: "real estate e-commerce",
           description:
               "The Millennial Property application is a mobile-based application platform in the field of rental property, buying and selling, membership, advertising which includes apartments, hotels, villas, exclusive boarding houses, houses, co-working spaces and other entertainment venues. Having a 'user friendly' service system or the best service in leasing, customer care and friendly service to provide comfort and standard equipment such as star hotels in each unit managed by Millennial Property management.",
+          playstoreUrl: "https://play.google.com/store/apps/details?id=com.booble.id.millpro&hl=en",
           companyProfileUrl: "https://www.millennialproperty.co.id/#home",
           sliderItems: [
             SliderItem(

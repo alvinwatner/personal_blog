@@ -34519,7 +34519,7 @@ G(a){var s="Home Page",r=null,q=t.bA,p=A.a([new A.c3("assets/images/rada_home.pn
 p=A.aeS("https://www.radatime.co.id/about",u.R,A.a([B.vs,new A.cB(r,A.a([B.lB,A.iz(A.bo("~20 payment methods",r,o==null?r:o.bV(B.l),B.d0,r),r,r),B.eX],n)),B.vp,B.vt,B.vq],m),!1,u.l,p,"watch e-commerce","RADATIME")
 q=A.a([new A.c3("assets/images/mp_home.png",s),new A.c3("assets/images/mp_detail.png","Detail Property Page"),new A.c3("assets/images/mp_barcode.png","Detail Checkin Page"),new A.c3("assets/images/mp_livechat.png","Live Chat Page"),new A.c3("assets/images/mp_membership.png","Membership Page"),new A.c3("assets/images/mp_fasilitas.png","List Facilities Page"),new A.c3("assets/images/mp_filter.png","Filter Page")],q)
 o=A.U(a).RG.Q
-return A.aeg(A.a([p,B.Jh,B.aF,A.aeS(u.k,u.T,A.a([B.vr,new A.cB(r,A.a([B.lA,A.iz(A.bo("Firebase",r,o==null?r:o.bV(B.l),r,r),r,r),B.b6],n)),B.vo,B.vv,B.vu],m),!0,"",q,"real estate e-commerce","Millenial Property")],n))}}
+return A.aeg(A.a([p,B.Jh,B.aF,A.aeS(u.k,u.T,A.a([B.vr,new A.cB(r,A.a([B.lA,A.iz(A.bo("Firebase",r,o==null?r:o.bV(B.l),r,r),r,r),B.b6],n)),B.vo,B.vv,B.vu],m),!0,"https://play.google.com/store/apps/details?id=com.booble.id.millpro&hl=en",q,"real estate e-commerce","Millenial Property")],n))}}
 A.CS.prototype={
 G(a){var s="Home Page",r=null,q=t.bA,p=A.a([new A.c3("assets/images/rada_home.png",s),new A.c3("assets/images/rada_allbrand.png","All Category Page"),new A.c3("assets/images/rada_brand.png","Category Page"),new A.c3("assets/images/rada_filter.png","Filter Dialog")],q),o=A.U(a).RG.Q,n=t.p,m=t.BR
 p=A.aeT("https://www.radatime.co.id/about",u.R,A.a([B.vs,new A.cB(r,A.a([B.lB,A.iz(A.bo("~20 payment methods",r,o==null?r:o.bV(B.l),B.d0,r),r,r),B.eX],n)),B.vp,B.vt,B.vq],m),u.l,p,"watch e-commerce","RADATIME")

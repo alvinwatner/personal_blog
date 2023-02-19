@@ -87,7 +87,7 @@ class _ProjectCategoriesButtonState extends State<ProjectCategoriesButton> {
           child: LayoutBuilder(builder: (context, constraints) {
             return Column(
               children: [
-                 SizedBox(
+                SizedBox(
                   height: responsiveValue(
                     context,
                     desktop: 30,
